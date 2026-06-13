@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "title": "Total Solar Eclipse",
+    "date": "2026-08-12",
+    "description": "A total solar eclipse will be visible across parts of the Arctic, Greenland, Iceland, and Spain.",
+    "type": "solar"
+  },
+  {
+    "id": "2",
+    "title": "Perseid Meteor Shower Peak",
+    "date": "2026-08-13",
+    "description": "The Perseid meteor shower, one of the most spectacular meteor showers of the year, reaches its peak.",
+    "type": "meteor_shower"
+  },
+  {
+    "id": "3",
+    "title": "Partial Lunar Eclipse",
+    "date": "2026-02-28",
+    "description": "A partial lunar eclipse will be visible from Europe, Africa, North America, and South America.",
+    "type": "lunar"
+  },
+  {
+    "id": "4",
+    "title": "Jupiter-Saturn Conjunction",
+    "date": "2026-03-15",
+    "description": "Jupiter and Saturn will appear exceptionally close in the night sky, a rare celestial alignment.",
+    "type": "planet_conjunction"
+  },
+  {
+    "id": "5",
+    "title": "Venus at Greatest Eastern Elongation",
+    "date": "2026-06-04",
+    "description": "Venus will be at its greatest angular distance east of the Sun, making it highly visible after sunset.",
+    "type": "other"
+  }
+]

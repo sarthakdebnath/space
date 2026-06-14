@@ -16,7 +16,7 @@ const modules = [
     description: "Interactive constellation database",
   },
   {
-    title: "NIGHT SKY",
+    title: "LOCATION SKY MODULE",
     href: "/night-sky",
     status: "ONLINE",
     description: "Observation and sky visibility system",

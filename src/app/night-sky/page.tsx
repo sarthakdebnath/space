@@ -35,7 +35,7 @@ export default function NightSkyPage() {
                 <line x1="11" y1="11" x2="11" y2="2" stroke="var(--green)" strokeWidth="1.5" />
                 <circle cx="11" cy="11" r="2" fill="var(--green)" />
               </svg>
-              <span className="sky-header-title">NIGHT SKY COMMAND CENTER</span>
+              <span className="sky-header-title">LOCATION SKY PROBE CENTER</span>
             </div>
             <div className="sky-header-badges">
               <span className="status-led green" />

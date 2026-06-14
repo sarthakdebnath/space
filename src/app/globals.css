@@ -27,7 +27,10 @@
 }
 
 /* ─── RESET ─────────────────────────────────────────── */
-*, *::before, *::after { box-sizing: border-box; }
+*, *::before, *::after { 
+  box-sizing: border-box;
+  cursor: url('/cursor.cur'), auto;
+}
 
 html { scroll-behavior: smooth; }
 
@@ -463,4 +466,8 @@ a { color: var(--cyan); text-decoration: none; }
 .quick-btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+button, a, input, [role="button"] {
+  cursor: url('/cursor.cur'), auto;
 }

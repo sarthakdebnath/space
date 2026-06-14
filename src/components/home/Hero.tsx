@@ -52,7 +52,7 @@ export default function Hero() {
 
         <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem" }}>
           <Link href="/iss-tracker"      className="quick-btn">ISS TRACKER</Link>
-          <Link href="/night-sky"        className="quick-btn">NIGHT SKY</Link>
+          <Link href="/night-sky"        className="quick-btn">LOCATION SKY PROBE CENTER</Link>
           <Link href="/constellations"   className="quick-btn">CONSTELLATIONS</Link>
           <Link href="/celestial-events" className="quick-btn">EVENTS</Link>
           <Link href="/planets"          className="quick-btn">PLANETS</Link>

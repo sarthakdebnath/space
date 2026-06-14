@@ -12,9 +12,11 @@ import BootLoader from "@/components/sky/BootLoader";
 import { useSky } from "@/hooks/useSky";
 import "./sky.css";
 import BackToDashboard from "@/components/common/BackToDashboard";
+import { useState } from "react";
 
 export default function NightSkyPage() {
   const { data, loading, booting, error, bootMessages, fetchSky } = useSky();
+  const [bootDone, setBootDone] = useState(false);
 
   return (
     <>
@@ -84,7 +86,12 @@ export default function NightSkyPage() {
           )}
 
           {/* BOOT LOADER */}
-          {booting && <BootLoader messages={bootMessages} />}
+          {booting && !bootDone && (
+            <BootLoader
+              messages={bootMessages}
+              onComplete={() => setBootDone(true)}
+            />
+          )}
 
           {/* DATA */}
           {data && !booting && (

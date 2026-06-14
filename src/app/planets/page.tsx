@@ -471,7 +471,7 @@ export default function PlanetsPage() {
               <p>{">"} PLANET DATABASE</p>
               <p>{">"} CLICK A PLANET TO SCAN</p>
               <button className={styles.monitorBtn} onClick={() => setShowSizeMode(true)}>
-                [SIZE COMPARE]
+                COMPARE PLANET SIZES
               </button>
             </>
           )}

@@ -222,27 +222,6 @@ npm start
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Home Dashboard
-* ISS Tracker
-* Night Sky Command Center
-* Constellation Explorer
-* Celestial Events Database
-* Planetary Explorer
-
-Example:
-
-```md
-## Home Dashboard
-
-![Dashboard](./wireframes/dashboard.png)
-```
-
----
-
 ## 🎯 Project Goals
 
 StarTrek was developed to:

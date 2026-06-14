@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import styles from "./duniya.module.css";
+import BackToDashboard from "@/components/common/BackToDashboard";
 
 interface Star    { id: number; top: number; left: number; size: number; delay: number; duration: number; }
 interface Asteroid { id: number; angle: number; radius: number; size: number; opacity: number; delay: number; duration: number; }
@@ -263,7 +264,7 @@ export default function PlanetsPage() {
     })));
   }, []);
 
-  // Asteroid belt — 200 rocks between Mars and Jupiter orbit radii (178–208px)
+  // Asteroid belt — 360 rocks between Mars and Jupiter orbit radii (178–208px)
   useEffect(() => {
     setAsteroids(Array.from({ length: 360 }, (_, i) => ({
       id:       i,
@@ -312,6 +313,16 @@ export default function PlanetsPage() {
 
   return (
     <div className={styles.space}>
+          <div
+      style={{
+        position: "fixed",
+        top: "20px",
+        left: "20px",
+        zIndex: 1000,
+      }}
+    >
+      <BackToDashboard />
+    </div>
 
       {/* ── Loading screen ── */}
       {loading && (

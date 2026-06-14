@@ -7,7 +7,7 @@ export default function NightSkyPreview() {
     <div className="mc-panel">
       <div className="mc-panel-header">
         <span className="status-led cyan" />
-        LOACTION SKY MODULE
+        LOCATION SKY MODULE
 
         <span
           style={{

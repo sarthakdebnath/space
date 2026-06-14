@@ -107,8 +107,8 @@ export default function QuickStats() {
 
         <StatCard
           label="PLANETS"
-          value="WIP"
-          unit="UNDER DEVELOPMENT"
+          value="ONLINE"
+          unit="OBSERVATION READY"
           accent="amber"
         />
       </div>

@@ -17,7 +17,7 @@ export default function Hero() {
     <div className="mc-panel">
       <div className="mc-panel-header">
         <span className="status-led green" />
-        STAR TREK COMMAND CENTER
+        MISSION CONTROL COMMAND CENTER
       </div>
 
       <div
@@ -34,7 +34,7 @@ export default function Hero() {
               textShadow: "var(--glow-green)",
             }}
           >
-            MISSION CONTROL
+            STAR TREK
           </h1>
 
           <p

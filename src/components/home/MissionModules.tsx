@@ -30,7 +30,7 @@ const modules = [
   {
     title: "PLANETS",
     href: "/planets",
-    status: "DEVELOPING",
+    status: "ONLINE",
     description: "Solar system exploration module",
   },
 ];

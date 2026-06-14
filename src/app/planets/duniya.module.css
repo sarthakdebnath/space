@@ -353,12 +353,12 @@
 .monitorScreen {
   
   position: absolute;
-  top: 15%; left: 21%;
-  width: 68%; height: 56%;
+  top: 17%; left: 19%;
+  width: 62%; height: 50%;
   overflow: hidden;
   color: #00ff88;
   font-family: monospace;
-  padding: 8px;
+  padding: 7px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -394,7 +394,7 @@
   background: rgba(255, 0, 0, 0.082);
   border-color: #ff0000;
   text-shadow: 0 0 6px #ff0000;
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 @keyframes redPulse {
